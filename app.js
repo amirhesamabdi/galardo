@@ -6,16 +6,16 @@ cat:"GOLD",
 image:"Assets/melligold.webp"
 },
 {
-title:"OpenAI",
-url:"https://openai.com",
-cat:"AI",
-image:"assets/openai.jpg"
+title:"milli.gold",
+url:"https://milli.gold/",
+cat:"Gold",
+image:"Assets/MilliLogo.png"
 },
 {
-title:"GitHub",
-url:"https://github.com",
-cat:"Dev",
-image:"assets/github.jpg"
+title:"Talasea",
+url:"http://talasea.ir/onboarding?r=COBdbQnU",
+cat:"Gold",
+image:"assets/talasea.jpg"
 }
 ];
 
