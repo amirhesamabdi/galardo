@@ -15,7 +15,7 @@ image:"Assets/MilliLogo.png"
 title:"Talasea",
 url:"http://talasea.ir/onboarding?r=COBdbQnU",
 cat:"Gold",
-image:"assets/talasea.jpg"
+image:"Assets/Talasea.jpg"
 }
 ];
 
