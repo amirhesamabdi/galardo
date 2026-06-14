@@ -3,7 +3,7 @@ const data = [
 title:"melligold",
 url:"https://melligold.com/pwa/account/?ref=MG3mZi3oosvA",
 cat:"GOLD",
-image:"assets/melligold.webp"
+image:"Assets/melligold.webp"
 },
 {
 title:"OpenAI",
