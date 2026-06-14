@@ -8,13 +8,13 @@ image:"Assets/melligold.webp"
 {
 title:"milli.gold",
 url:"https://milli.gold/",
-cat:"Gold",
+cat:"GOLD",
 image:"Assets/MilliLogo.png"
 },
 {
 title:"Talasea",
 url:"http://talasea.ir/onboarding?r=COBdbQnU",
-cat:"Gold",
+cat:"GOLD",
 image:"Assets/Talasea.jpg"
 }
 ];
