@@ -2,22 +2,20 @@ const data = [
 {
 title:"Binance",
 url:"https://example.com",
-cat:"Crypto"
+cat:"Crypto",
+image:"assets/binance.jpg"
 },
 {
 title:"OpenAI",
-url:"https://example.com",
-cat:"AI"
+url:"https://openai.com",
+cat:"AI",
+image:"assets/openai.jpg"
 },
 {
-title:"Hosting",
-url:"https://example.com",
-cat:"Tools"
-},
-{
-title:"Amazon",
-url:"https://example.com",
-cat:"Shop"
+title:"GitHub",
+url:"https://github.com",
+cat:"Dev",
+image:"assets/github.jpg"
 }
 ];
 
@@ -53,21 +51,24 @@ grid.innerHTML = "";
 const val = search.value.toLowerCase();
 
 data
-.filter(d => {
-return (active === "All" || d.cat === active)
-&& d.title.toLowerCase().includes(val);
-})
+.filter(d =>
+(active === "All" || d.cat === active) &&
+d.title.toLowerCase().includes(val)
+)
 .forEach(d => {
 
 const card = document.createElement("div");
 card.className = "card";
 
 card.innerHTML = `
-<div class="title">${d.title}</div>
-<div class="cat">${d.cat}</div>
-<div class="btns">
-<button class="open">باز کردن</button>
-<button class="copy">کپی</button>
+<img src="${d.image}">
+<div class="content">
+  <div class="title">${d.title}</div>
+  <div class="cat">${d.cat}</div>
+  <div class="btns">
+    <button class="open">باز کردن</button>
+    <button class="copy">کپی</button>
+  </div>
 </div>
 `;
 
