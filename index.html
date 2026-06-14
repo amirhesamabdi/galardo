@@ -2,35 +2,32 @@
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Referral Hub</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="container">
+<div class="app">
 
 <header>
-    <h1>Referral Hub</h1>
-    <p>دسترسی سریع به لینک‌های من</p>
+  <h1>Referral Hub</h1>
+  <p>لینک‌های سریع من</p>
 </header>
 
-<div class="search-box">
-    <input type="text" id="search" placeholder="جستجو...">
+<div class="search-wrap">
+  <input id="search" placeholder="جستجو..." />
 </div>
 
-<div id="categories" class="categories"></div>
+<div id="tags"></div>
 
-<div id="linksGrid" class="grid"></div>
+<div id="grid"></div>
 
 </div>
 
 <script src="app.js"></script>
-
 </body>
 </html>
