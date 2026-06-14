@@ -1,9 +1,9 @@
 const data = [
 {
-title:"Binance",
-url:"https://example.com",
-cat:"Crypto",
-image:"assets/binance.jpg"
+title:"melligold",
+url:"https://melligold.com/pwa/account/?ref=MG3mZi3oosvA",
+cat:"GOLD",
+image:"assets/melligold.webp"
 },
 {
 title:"OpenAI",
