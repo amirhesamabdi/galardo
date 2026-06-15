@@ -16,8 +16,8 @@ title:"Talasea",
 url:"http://talasea.ir/onboarding?r=COBdbQnU",
 cat:"GOLD",
 image:"Assets/Talasea.jpg"
-}
-  {
+},
+{
 title:"GSM CUP",
 url:"https://cup.gsm.ir/?ref=ZWX876B",
 cat:"GAME",
