@@ -21,7 +21,7 @@ image:"Assets/Talasea.jpg"
 title:"GSM CUP",
 url:"https://cup.gsm.ir/?ref=ZWX876B",
 cat:"GAME",
-image:""
+image:"Assets/MilliLogo.png"
 }
 ];
 
