@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Referral Hub</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Galardo | لینک‌های رفرال</title>
+  <meta name="description" content="مجموعه لینک‌های رفرال و دسترسی سریع به سرویس‌های مورد نیاز.">
+  <meta name="theme-color" content="#111827">
+  <meta name="robots" content="index,follow">
 
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta property="og:title" content="Galardo | لینک‌های رفرال">
+  <meta property="og:description" content="دسترسی سریع به لینک‌های رفرال و سرویس‌های منتخب.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fa_IR">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <main class="app">
+    <header>
+      <h1>Galardo</h1>
+      <p>لینک‌های شخصی و رفرال</p>
+    </header>
 
-<div class="app">
+    <section class="search-wrap">
+      <label class="sr-only" for="search">جستجو</label>
+      <input id="search" type="search" placeholder="جستجو..." autocomplete="off">
+    </section>
 
-<header>
-  <h1>Referral Hub</h1>
-  <p>لینک‌های شخصی</p>
-</header>
+    <section id="tags" aria-label="دسته‌بندی‌ها"></section>
+    <section id="grid" aria-label="فهرست لینک‌ها"></section>
+  </main>
 
-<div class="search-wrap">
-  <input id="search" placeholder="جستجو..." />
-</div>
-
-<div id="tags"></div>
-
-<div id="grid"></div>
-
-</div>
-
-<script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
 </html>
