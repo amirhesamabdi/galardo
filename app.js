@@ -22,6 +22,12 @@ const data = [
         url: "https://cup.gsm.ir/?ref=ZWX876B",
         cat: "GAME",
         image: "Assets/MilliLogo.png"
+    },
+    {
+        title: "Bitpin",
+        url: "https://bitpin.ir/signup/?refcode=KNvMoSXH",
+        cat: "EXCHANGE",
+        image: "https://bitpin.ir/static/bitpin-logo.png"
     }
 ];
 
