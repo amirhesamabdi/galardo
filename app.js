@@ -7,7 +7,7 @@ const data = [
     },
     {
         title: "milli.gold",
-        url: "https://milli.gold/",
+        url: "https://milli.gold/app/sign-up?referralCode=milli-yojyh",
         cat: "GOLD",
         image: "Assets/MilliLogo.png"
     },
