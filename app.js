@@ -25,9 +25,15 @@ const data = [
     },
     {
         title: "Bitpin",
-        url: "https://bitpin.ir/signup/?refcode=KNvMoSXH",
+        url: "https://bitpin.ir/signup/?refcode=MXPiJCOE",
         cat: "EXCHANGE",
-        image: "https://bitpin.ir/static/bitpin-logo.png"
+        image: "Assets/bitpin.jpg"
+    }
+     {
+        title: "Nobitex",
+        url: "https://nobitex.ir/signup/?refcode=42875",
+        cat: "EXCHANGE",
+        image: "Assets/nobitex.jpg"
     }
 ];
 
