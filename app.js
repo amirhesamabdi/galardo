@@ -28,7 +28,7 @@ const data = [
         url: "https://bitpin.ir/signup/?refcode=MXPiJCOE",
         cat: "EXCHANGE",
         image: "Assets/bitpin.jpg"
-    }
+    },
      {
         title: "Nobitex",
         url: "https://nobitex.ir/signup/?refcode=42875",
